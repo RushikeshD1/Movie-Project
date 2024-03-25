@@ -1,0 +1,111 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: black;
+}
+
+#main{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: black;
+}
+
+.main-heading{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    /* border: 2px solid black; */
+}
+
+.heading{
+    font-weight: bolder;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.search{
+    padding: 5px;   
+    /* border: 2px solid black; */
+    display: flex;
+    margin-top: 0%;
+    margin-bottom: 0%;   
+    justify-content: center;  
+    background-color: rgb(189, 224, 224);
+}
+
+.search h1{
+    font-size: 18px;   
+}
+
+#movie-search{    
+    margin-left: 5px;
+    width: 300px;
+    font-weight: bolder;
+}
+
+.movies{
+    margin-top: 120px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.movies #movie-container{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    
+}
+
+.card{
+    
+    padding: 10px;
+}
+.card img{
+    width: 230px;
+    height: 400px;    
+}
+
+.card-body{
+    padding: 5px 0px;
+    
+    /* border: 2px solid black; */
+}
+
+
+.card h2{
+    font-size: 18px;
+    padding-bottom: 5px;
+    text-align: left;
+    color: rgb(227, 60, 60);
+}
+
+.card h2 span{
+    color: Black;
+    color: white;
+    
+}
+
+.card p{
+    font-size: 14px;
+    text-align: left;
+    color: rgb(38, 97, 186);
+}
+
+.card p span{
+    color: black;
+    color: white;
+}
+
+.pigi{
+    text-align: center;
+    /* border: 2px solid white; */
+    padding: 5px;
+    color: white;
+    background-color: rgb(56, 92, 164);
+}

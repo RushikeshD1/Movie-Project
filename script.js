@@ -67,4 +67,6 @@ const displayPagination = (totalResults, curentPage) =>{
 
 const debouncedFunction = debounce(fetchMovies, 1000);
 
-searchMovies.addEventListener('input', debouncedFunction)
+searchMovies.addEventListener('input', event => {
+    debouncedFunction(); 
+});

@@ -4,7 +4,7 @@ const pagination = document.getElementById('pagination');
 
 
 const API_KEY = `f928b7fa`;
-const BASE_URL = ` https://www.omdbapi.com/?i=tt3896198&apikey=${API_KEY}`;
+const BASE_URL = ` http://www.omdbapi.com/?i=tt3896198&apikey=${API_KEY}`;
 
 const debounce = (fn, delay)=>{
     let timer;
